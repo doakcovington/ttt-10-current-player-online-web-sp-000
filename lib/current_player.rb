@@ -4,7 +4,9 @@ def turn_count(board)
   count = 0
   #iterate over board array
   board.each do |moves|
+    #Look for an "X" or an "O" in the array
     if moves == "X" || moves == "O"
+      #Increase count by 1 if "X" or "O" is found  
       count += 1
     end
   end
